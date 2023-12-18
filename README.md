@@ -1,3 +1,32 @@
+Just empty Laravel Framework 10.37.3 (should be on Docker on step2) 
+https://dockerize.io/guides/php-laravel-guide (failed)
+https://vshloda.medium.com/setting-up-a-laravel-10-development-environment-with-docker-3977a292c8dd (build too long)
+https://medium.com/@eloufirhatim/add-docker-to-an-existing-laravel-10-project-1e6c383fc7a8
+
+
+---------------------------------------------------------
+##Install Laravel 10 from scratch
+
+1. Install new Laravl project (can pick up instructions from Laravel-Yii2_Comment_Vote_widgets/blog_Laravel)
+2. Edit .env (DB name, sql login/ password)
+3. Run Migrate 
+5. Install Login/Register functionality + profile edit , e.g Breeze  + run migrate     (composer require laravel/breeze --dev)
+6. Add your own web routes if needed. If u do it before Breeze install, they will be overwritten by Breeze install
+7. Link 'Register' in not visible on login page by default. Add it manually.
+
+Site goes to http://localhost:8000/
+In this set-up: route "/" takes you to dashboard. 
+Some examples:
+       1. view/register.blade.php  goes to docker\www\laraveltutorial\resources\views\auth\r\www\laraveltutorial\resources\views\layouts
+       2. main menu links go to r\www\laraveltutorial\resources\views\layout\navigation.blade.php
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
