@@ -1,4 +1,5 @@
-Just empty Laravel Framework 10.37.3 (should be on Docker on step2) 
+<p>Just empty Laravel Framework 10.37.3 (should be on Docker on step2) </p>
+
 https://dockerize.io/guides/php-laravel-guide (failed)
 https://vshloda.medium.com/setting-up-a-laravel-10-development-environment-with-docker-3977a292c8dd (build too long)
 https://medium.com/@eloufirhatim/add-docker-to-an-existing-laravel-10-project-1e6c383fc7a8
@@ -14,12 +15,13 @@ https://medium.com/@eloufirhatim/add-docker-to-an-existing-laravel-10-project-1e
 6. Add your own web routes if needed. If u do it before Breeze install, they will be overwritten by Breeze install
 7. Link 'Register' in not visible on login page by default. Add it manually.
 
-Site goes to http://localhost:8000/
+<p>Site goes to http://localhost:8000/</p>
 In this set-up: route "/" takes you to dashboard. 
-Some examples:
-       1. view/register.blade.php  goes to docker\www\laraveltutorial\resources\views\auth\r\www\laraveltutorial\resources\views\layouts
-       2. main menu links go to r\www\laraveltutorial\resources\views\layout\navigation.blade.php
-
+<p>Some examples:</p>
+   <ul>
+     <li>  1. view/register.blade.php  goes to docker\www\laraveltutorial\resources\views\auth\r\www\laraveltutorial\resources\views\layouts  </li> 
+     <li>  2. main menu links go to r\www\laraveltutorial\resources\views\layout\navigation.blade.php                                         </li> 
+   </ul>
 
 
 
